@@ -1,6 +1,6 @@
 var rpc = require("discord-rpc")
 const client = new rpc.Client({ transport: 'ipc' })
-const id =  ('Your id bot')
+const id =  ('791338147149512734')
 
 client.on('ready', () => {
 console.log(`RPC ID : ${id} Started`);
@@ -10,12 +10,12 @@ console.log(`RPC ID : ${id} Started`);
                     details : "",
                     state : "",
                     assets : {
-                    large_image : "",
-                    large_text : "" ,
+                    large_image : "add",
+                    large_text : "logo" ,
                     small_image : "",
                     small_text : ""                    
                 },
-            buttons : [{label : "Made By dm Team bot",url : "link1"} , {label : "dokme 2" , url : "link2"}]
+            buttons : [{label : "Discord",url : " https://discord.gg/zVF4ucBe3G"} , {label : "Website" , url : ""}]
         }
     })
 })
